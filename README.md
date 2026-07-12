@@ -21,6 +21,10 @@ Welcome to the **Java Recursion** repository! This repository contains a structu
 | `rec06.java` | Factorial of a Number (Void) | **State Accumulation (Void):** Passes a multiplier product state `fac` down the stack chain. Terminated when `num == 1`, instantly printing the terminal accumulated value. |
 | `rec07.java` | Factorial of a Number (Int Return) | **Functional Unwinding:** Evaluates factorial mathematical logic directly upward via `printFact(num - 1) * num` with baseline protection checking for both values `1` and `0`. |
 | `rec08.java` | Find $N$-th Fibonacci Number | **Multiple/Tree Recursion:** Generates a dual-branching call stack tree by summing two simultaneous sub-calls: `printFib(num - 1) + printFib(num - 2)`. |
+| `rec09.java` | Print Complete Fibonacci Series Sequence (Void) | **Linear State Progression:** Tracks sequence state parameters (`a`, `b`) directly inside the method arguments, calculating `c = a + b` on the fly to print the sequence forwards on each downward frame drop. |
+| `rec10.java` | Calculate $x^n$ Power Equation (Void) | **Linear State Accumulation:** Multiplies an accumulator value `F` downward by `num` over a linear stack of depth $P$, printing the total directly when the tracker `p == 1`. |
+| `rec11.java` | Calculate $x^n$ Power Equation (Int Return) | **Linear Functional Unwinding:** Rebuilds numbers upwards using `num * printPow(num, P - 1)` with standard time complexity scale $O(P)$. |
+| `rec12.java` | Optimized $x^n$ Power Calculation | **Logarithmic Divide & Conquer:** Cuts execution depth down to $O(\log P)$ by evaluating a single sub-problem branch `printp(num, p / 2)`. It squares the result and handles odd exponents via conditional parity checking (`p % 2 == 0`). |
 ---
 
 # How to Compile and Run
