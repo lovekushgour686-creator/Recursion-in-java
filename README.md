@@ -25,6 +25,8 @@ Welcome to the **Java Recursion** repository! This repository contains a structu
 | `rec10.java` | Calculate $x^n$ Power Equation (Void) | **Linear State Accumulation:** Multiplies an accumulator value `F` downward by `num` over a linear stack of depth $P$, printing the total directly when the tracker `p == 1`. |
 | `rec11.java` | Calculate $x^n$ Power Equation (Int Return) | **Linear Functional Unwinding:** Rebuilds numbers upwards using `num * printPow(num, P - 1)` with standard time complexity scale $O(P)$. |
 | `rec12.java` | Optimized $x^n$ Power Calculation | **Logarithmic Divide & Conquer:** Cuts execution depth down to $O(\log P)$ by evaluating a single sub-problem branch `printp(num, p / 2)`. It squares the result and handles odd exponents via conditional parity checking (`p % 2 == 0`). |
+| `rec13.java` | Advanced Double Power ($b^e$) with Negative Exponents | **Logarithmic Precision Tuning:** Extends logarithmic power scaling to `double` precision inputs and handles negative exponents dynamically by conditionally inverting the execution flow path via `1.0 / Calpow(b, -e)`. |
+| `rec14.java` | Sum of All Digits of an Integer | **Modular Digit Reduction:** Isolates individual trailing digits using a remainder operator (`num % 10`) to continually update a running sum parameter, shifting execution frame steps via integer division (`num / 10`) until reaching a zero baseline. |
 ---
 
 # How to Compile and Run
