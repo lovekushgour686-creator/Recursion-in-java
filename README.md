@@ -27,6 +27,8 @@ Welcome to the **Java Recursion** repository! This repository contains a structu
 | `rec12.java` | Optimized $x^n$ Power Calculation | **Logarithmic Divide & Conquer:** Cuts execution depth down to $O(\log P)$ by evaluating a single sub-problem branch `printp(num, p / 2)`. It squares the result and handles odd exponents via conditional parity checking (`p % 2 == 0`). |
 | `rec13.java` | Advanced Double Power ($b^e$) with Negative Exponents | **Logarithmic Precision Tuning:** Extends logarithmic power scaling to `double` precision inputs and handles negative exponents dynamically by conditionally inverting the execution flow path via `1.0 / Calpow(b, -e)`. |
 | `rec14.java` | Sum of All Digits of an Integer | **Modular Digit Reduction:** Isolates individual trailing digits using a remainder operator (`num % 10`) to continually update a running sum parameter, shifting execution frame steps via integer division (`num / 10`) until reaching a zero baseline. |
+| `rec15.java` | Product of All Digits of an Integer | **Functional Unwinding Multiplication:** Strips trailing digits using modulo math (`num % 10`) and multiplies them upward against the returned functional result of the remaining shifted digits (`proddigit(num / 10)`). |
+| `rec16.java` | Reverse the Digits of an Integer | **State-Driven Digital Reversal:** Progressively shifts a running accumulator state `rev` left by multiplying by 10 (`rev * 10`), adds the current trailing digit (`num % 10`), and steps downward until the base case prints the completed reverse value. |
 ---
 
 # How to Compile and Run
