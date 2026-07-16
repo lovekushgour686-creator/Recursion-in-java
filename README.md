@@ -31,6 +31,8 @@ Welcome to the **Java Recursion** repository! This repository contains a structu
 | `rec16.java` | Reverse the Digits of an Integer | **State-Driven Digital Reversal:** Progressively shifts a running accumulator state `rev` left by multiplying by 10 (`rev * 10`), adds the current trailing digit (`num % 10`), and steps downward until the base case prints the completed reverse value. |
 | `rec17.java` | Reverse the Digits of an Integer (Int Return) | **Functional State Accumulation (Int Return):** Accumulates the reversed integer value inside parameters recursively and returns the final value `r` directly up the call stack once the base case `num == 0` is reached. |
 | `rec18.java` | Tower of Hanoi Move Counter | **Mathematical Tree Recursion:** Implements the classic puzzle using dual-recursive branch calls to move $N-1$ disks across Source (`from`), Auxiliary (`axu`), and Target (`To`) rods while incrementing a static transaction state `count`. |
+| `rec19.java` | Tower of Hanoi Move Calculator (Int Return) | **Functional Unwinding Tree:** Computes the total move operations algebraically via return logic. It aggregates the sub-problem tree returns directly using the formal formulation `towerOfHanoi(num - 1) + 1 + towerOfHanoi(num - 1)`. |
+| `rec20.java` | Recursive Star Pattern Generator | **Nested Function Chain Recursion:** Eliminates loop statements completely by driving a line-tracking engine `pattern(p, n)` that sequentially sparks a secondary linear print subroutine `printStars(count)` to print geometric character shapes frame by frame. |
 ---
 
 # How to Compile and Run
