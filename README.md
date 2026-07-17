@@ -33,6 +33,8 @@ Welcome to the **Java Recursion** repository! This repository contains a structu
 | `rec18.java` | Tower of Hanoi Move Counter | **Mathematical Tree Recursion:** Implements the classic puzzle using dual-recursive branch calls to move $N-1$ disks across Source (`from`), Auxiliary (`axu`), and Target (`To`) rods while incrementing a static transaction state `count`. |
 | `rec19.java` | Tower of Hanoi Move Calculator (Int Return) | **Functional Unwinding Tree:** Computes the total move operations algebraically via return logic. It aggregates the sub-problem tree returns directly using the formal formulation `towerOfHanoi(num - 1) + 1 + towerOfHanoi(num - 1)`. |
 | `rec20.java` | Recursive Star Pattern Generator | **Nested Function Chain Recursion:** Eliminates loop statements completely by driving a line-tracking engine `pattern(p, n)` that sequentially sparks a secondary linear print subroutine `printStars(count)` to print geometric character shapes frame by frame. |
+| `rec21.java` | Reverse a String Using Recursion | **Tail Index Extraction:** Steps backward through the string using a decremented index variable `i` tracking from `str.length() - 1` down to `0`, grabbing string elements dynamically via `charAt(i)` onto the console. |
+| `rec22.java` | First and Last Occurrence of a Character | **Static Multi-State Tracking:** Linearly scans an input text grid with an incrementing frame tracker `i`. It hooks the first and subsequent instances of a target element `ch` inside static checkpoint indices `f` and `l`. |
 ---
 
 # How to Compile and Run
