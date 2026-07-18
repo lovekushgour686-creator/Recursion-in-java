@@ -35,6 +35,8 @@ Welcome to the **Java Recursion** repository! This repository contains a structu
 | `rec20.java` | Recursive Star Pattern Generator | **Nested Function Chain Recursion:** Eliminates loop statements completely by driving a line-tracking engine `pattern(p, n)` that sequentially sparks a secondary linear print subroutine `printStars(count)` to print geometric character shapes frame by frame. |
 | `rec21.java` | Reverse a String Using Recursion | **Tail Index Extraction:** Steps backward through the string using a decremented index variable `i` tracking from `str.length() - 1` down to `0`, grabbing string elements dynamically via `charAt(i)` onto the console. |
 | `rec22.java` | First and Last Occurrence of a Character | **Static Multi-State Tracking:** Linearly scans an input text grid with an incrementing frame tracker `i`. It hooks the first and subsequent instances of a target element `ch` inside static checkpoint indices `f` and `l`. |
+| `rec23.java` | Check If Array Is Sorted Non-Decreasingly | **Linear Boundary Lookahead:** Performs element pair checking (`a[s] >= a[s + 1]`) at index pointer `s`. If elements break the order rule, it halts early by returning `false`, otherwise it returns `true` when reaching the array bound terminal index `a.length - 1`. |
+| `rec24.java` | Move Target Element 'x' to End of String | **Linear Element Sifting:** Traverses string via tracking frame `i` checking for character match criteria. It isolates matches using static instance `count` trackers and appends remaining text directly onto a global string buffer before appending tracking character pads up to completion. |
 ---
 
 # How to Compile and Run
