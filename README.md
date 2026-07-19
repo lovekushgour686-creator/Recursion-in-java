@@ -37,6 +37,8 @@ Welcome to the **Java Recursion** repository! This repository contains a structu
 | `rec22.java` | First and Last Occurrence of a Character | **Static Multi-State Tracking:** Linearly scans an input text grid with an incrementing frame tracker `i`. It hooks the first and subsequent instances of a target element `ch` inside static checkpoint indices `f` and `l`. |
 | `rec23.java` | Check If Array Is Sorted Non-Decreasingly | **Linear Boundary Lookahead:** Performs element pair checking (`a[s] >= a[s + 1]`) at index pointer `s`. If elements break the order rule, it halts early by returning `false`, otherwise it returns `true` when reaching the array bound terminal index `a.length - 1`. |
 | `rec24.java` | Move Target Element 'x' to End of String | **Linear Element Sifting:** Traverses string via tracking frame `i` checking for character match criteria. It isolates matches using static instance `count` trackers and appends remaining text directly onto a global string buffer before appending tracking character pads up to completion. |
+| `rec25.java` | Move All Zeroes to End of Array | **Dual-Pointer Partitioning:** Traverses the array using an index frame `i`[cite: 36]. Non-zero entries are written forward from the left using a head pointer `idx`[cite: 36], while zero values are funneled towards the end of a secondary buffer array using a tail pointer `last`[cite: 36]. |
+| `rec26.java` | Calculate $x^n$ with Negative Exponents | **Linear Precision Stack Unwinding:** Evaluates standard linear power metrics sequentially[cite: 37]. It naturally scales to decimal precision using `double` and explicitly handles negative power fractions by returning `1.0 / calPower(x, -n)`[cite: 37]. |
 ---
 
 # How to Compile and Run
